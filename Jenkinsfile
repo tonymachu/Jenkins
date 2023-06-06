@@ -7,7 +7,8 @@ pipeline {
         stage('Creación archivo GIT') {
             steps {
                 script {
-                    def texto = """Francisco de Asís Palacios Ortega, alias El Pali (Sevilla 1928 - Sevilla 1988), también conocido por el sobrenombre de El Trovador de Sevilla, fue uno de los más populares cantaores y autores de sevillanas de la segunda mitad del siglo XX. Grabó más de 20 discos y escribió más de 200 canciones. Fue uno de los primeros solistas del género de las sevillanas que hasta entonces habían estado dominada por grupos.
+                    def texto = """
+                    Francisco de Asís Palacios Ortega, alias El Pali (Sevilla 1928 - Sevilla 1988), también conocido por el sobrenombre de El Trovador de Sevilla, fue uno de los más populares cantaores y autores de sevillanas de la segunda mitad del siglo XX. Grabó más de 20 discos y escribió más de 200 canciones. Fue uno de los primeros solistas del género de las sevillanas que hasta entonces habían estado dominada por grupos.
                     Su labor destaca, por un lado, como recuperador de las sevillanas corraleras, que estaban casi desaparecidas y también por sus letras que evocan las antiguas costumbres de vida en la ciudad de su infancia y la desaparición de la Sevilla más popular. El mismo constituyó un símbolo muy popular y tradicional, por su fisonomía caracterizada por su gran volumen y por la fuerte miopía que sufría que le hacía usar gafas de muy alta graduación.
 
                     Biografía
